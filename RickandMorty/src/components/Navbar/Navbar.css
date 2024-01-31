@@ -1,0 +1,31 @@
+nav {
+  background-color: #2b3640;
+  padding: 10px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  color: #ecf0f1;
+  font-size: 1.5rem;
+  
+}
+
+.link {
+  display: flex;
+}
+
+.link a {
+  color: #ecf0f1;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.link a:hover {
+  color: #3498db;
+}
